@@ -7,6 +7,8 @@ import java.net.URI;
 import java.io.IOException;
 public class ConsumoApi {
 
+
+//comentario pesado 
     public String obterDados(String endereco) {
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
